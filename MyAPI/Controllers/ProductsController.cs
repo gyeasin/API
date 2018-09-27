@@ -16,6 +16,7 @@ namespace MyAPI.Controllers
             new Products { Id = 1, Name = "Tomato Soup", Category = "Groceries", Price = 1 },
             new Products { Id = 2, Name = "Yo-yo", Category = "Toys", Price = 3.75M },
             new Products { Id = 3, Name = "Hammer", Category = "Hardware", Price = 16.99M }
+			//My comment
         };
 
         public IEnumerable<Products> GetAllProducts()
